@@ -93,5 +93,4 @@ Marcos Gaia
 🧭 Licença
 Este projeto é open-source sob a licença MIT.
 
-yaml
-Copiar código
+
