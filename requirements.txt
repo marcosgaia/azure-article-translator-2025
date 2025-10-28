@@ -1,0 +1,7 @@
+﻿python-docx
+requests
+python-dotenv
+tqdm
+rich
+openai>=1.40.0
+azure-ai-translation-text
