@@ -43,21 +43,18 @@ azure-article-translator-2025/
    cd azure-article-translator-2025
 Instale as dependências:
 
-bash
-Copiar código
-pip install -r requirements.txt
-Copie o arquivo .env.example para .env e preencha com suas chaves Azure:
 
-bash
-Copiar código
+pip install -r requirements.txt
+.env.example para .env e preencha com suas chaves Azure:
+
+
 AZURE_OPENAI_ENDPOINT=https://<seu-endpoint>.openai.azure.com/
 AZURE_OPENAI_KEY=<sua-chave>
 AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
 AZURE_OPENAI_API_VERSION=2024-06-01
 Execute o script principal:
 
-bash
-Copiar código
+
 python src/translate_docx_openai.py
 ☁️ Passo a Passo no Azure Portal
 1️⃣ Acesse portal.azure.com
